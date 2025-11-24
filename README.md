@@ -408,8 +408,8 @@ If you use this code, please cite:
 @software{dental_detection_pytorch,
   title = {Dental Disease Detection with PyTorch},
   year = {2024},
-  author = {Your Name},
-  url = {https://github.com/yourusername/dental-detection}
+  author = {Doug Shean},
+  url = {https://github.com/dsshean/TEETH}
 }
 ```
 
