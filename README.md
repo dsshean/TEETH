@@ -1,17 +1,32 @@
 # Dental Disease Detection with PyTorch
 
-A complete PyTorch implementation for detecting dental diseases using object detection models with YOLO-format annotations.
+A complete PyTorch implementation for **multiclass classification** and object detection of dental diseases.
+
+> **Note**: This is a **demo project for multiclass classification** using dental disease images. The project includes both image-level classification (identifying disease type) and object detection (localizing diseases with bounding boxes).
 
 ## Overview
 
-This project implements a deep learning pipeline for detecting and localizing dental diseases in clinical images. The system uses state-of-the-art object detection models (Faster R-CNN, RetinaNet, FCOS) to identify and locate:
+This project implements a deep learning pipeline for detecting and classifying dental diseases in clinical images. The system supports:
 
+1. **Image Classification** (6 classes): Classifying dental diseases at the image level using Vision Transformers, Swin Transformers, and CNNs
+2. **Object Detection** (4 classes): Detecting and localizing diseases using Faster R-CNN, RetinaNet, and FCOS
+
+**Disease Classes:**
+
+- **Calculus** (tartar buildup)
 - **Caries** (cavities)
-- **Ulcer** (mouth ulcers)
-- **Tooth Discoloration**
 - **Gingivitis** (gum inflammation)
+- **Hypodontia** (missing teeth)
+- **Mouth Ulcer**
+- **Tooth Discoloration**
 
-## Dataset Structure
+## Dataset
+
+**Source**: [Oral Diseases Dataset on Kaggle](https://www.kaggle.com/datasets/salmansajid05/oral-diseases)
+
+This dataset contains ~4,645 images across 6 dental disease categories, making it suitable for multiclass classification tasks. A subset of images also includes YOLO-format bounding box annotations for object detection.
+
+### Dataset Structure
 
 The project uses YOLO-format annotations with the following structure:
 
