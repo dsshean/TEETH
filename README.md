@@ -73,7 +73,7 @@ All coordinates are normalized to [0, 1] range.
 
 ```bash
 # Clone the repository
-git clone <repository_url>
+git clone https://github.com/dsshean/TEETH
 cd TEETH
 
 # Install dependencies
